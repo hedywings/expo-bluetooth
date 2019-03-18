@@ -4,14 +4,6 @@
   "description": "Expo Module Template standalone module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "test": "expo-module test",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module"
-  },
   "keywords": [
     "react-native",
     "expo"
@@ -23,10 +15,9 @@
     "preset": "expo-module-scripts"
   },
   "peerDependencies": {
-    "expo": "~32.0.0",
-    "expo-core": "~2.0.0",
-    "expo-constants-interface": "~2.0.0",
-    "expo-permissions-interface": "~2.0.0"
+    "expo-core": "~1.2.0",
+    "expo-constants-interface": "~1.1.0",
+    "expo-permissions-interface": "~1.2.0"
   },
   "devDependencies": {
     "expo-module-scripts": "^1.0.0"
